@@ -63,7 +63,7 @@ def error_with_exit(error_message):
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        error_with_exit("usage: python insert_time_to_file_name.py directoryPath fileName")
+        error_with_exit("usage: python datetime_inserter.py directoryPath fileName")
     dirPath = sys.argv[1]
     fileName = sys.argv[2]
     insert_time_to_file_name(dirPath, fileName)
